@@ -2,7 +2,7 @@
     include("conexion.php");
 ?>    
 
-    <form action="" method="post">
+  
 
     codido: <input name="co"><br />
 
