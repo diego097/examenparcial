@@ -24,7 +24,7 @@ if($_POST){
     $l = $_POST['lo'];
     $lat = $_POST['la'];
     mysql_query("insert into arbol(codigo,altura,tipo,longitud,latitud) values ('$c','$a','$t','$l','$lat')") or die(mysql_error());
-    echo "<h2> DATO GUARDADO </h2>";
+    echo "<h2> DATO GUARDADO correctamente</h2>";
 }
 
 ?>
