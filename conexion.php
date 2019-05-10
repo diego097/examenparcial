@@ -5,9 +5,9 @@
         $user =  "root";
         $pass = "";
         $server = "localhost";
-        $db = "construccion";
+        $db = "construcion";
         $con = mysql_connect($server,$user,$pass) or die ("Error al conectar a la base de datos".mysql_error());
-        mysql_select_db($db,$con);
+        mysql_select_db($db);
         
         return $con;
 
