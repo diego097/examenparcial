@@ -2,7 +2,7 @@
     include("conexion.php");
 ?>    
 
-    <form action="" method="post">
+    <form action ="" method ="post"> //editado por rous 
 
     codido del arbol: <input name="co"><br />
 
@@ -16,6 +16,8 @@
     </form>
 
 <?php
+
+// 
 
 if($_POST){
     $c = $_POST['co'];
