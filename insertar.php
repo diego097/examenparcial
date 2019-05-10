@@ -4,12 +4,12 @@
 
     <form action="" method="post">
 
-    codido: <input name="co"><br />
+    codido del arbol: <input name="co"><br />
 
-    altura: <input name="al"><br />
-    tipo: <input name="ti"><br />
-    longitud: <input name="lo"><br />
-    latitud: <input name="la"><br />
+    altura del arbol : <input name="al"><br />
+    tipo del arbol: <input name="ti"><br />
+    longitud del arbol : <input name="lo"><br />
+    latitud del arbol : <input name="la"><br />
     <br />
     <input type="submit" />
 
